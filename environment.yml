@@ -1,0 +1,11 @@
+name: flask_app
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - flask
+  - requests
+  - pytz
+  - pip
+  - pip:
+    - -r requirements.txt
